@@ -25,6 +25,7 @@ body {
     img {
         height:30vh;
         width:40vw;
+        min-width: 40vw;
       object-fit: cover;
       display: inline-block;
       margin: 10px 20px 30px 20px;
@@ -40,8 +41,9 @@ body {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     }
     .image-section{
-        display: flex   ;
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        
     }
